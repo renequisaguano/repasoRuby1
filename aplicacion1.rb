@@ -21,8 +21,15 @@ class HolaMundo
     cadena ="HOLA"
     print "El resultado es: \"#{resultado}\" \n"
     cadena << " MUNDO "
-    print cadena *3
-  end
+    print cadena * 2
+    puts cadena.concat(61)
+    puts cadena.capitalize
+    cadena.each_char{|a| print a
+      print "\n"
+      }
+      
+    print cadena.center(40,"*")
+    end
   
 end
 
