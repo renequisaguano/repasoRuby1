@@ -59,6 +59,13 @@ class HolaMundo
       if !(prueba==2)
         puts "LA VARIABLE NO ES 2"
       end
+    end
+    
+    def inversoIf()
+      edad=20
+      unless edad <18
+        print "Eres mayor de edad"
+      end
       
       
     end
@@ -71,5 +78,6 @@ objeto=HolaMundo.new()
 #objeto.saluda()
 #objeto.cadenas()
 #objeto.condicional()
-objeto.operadores
+#objeto.operadores
+objeto.inversoIf
 gets()
