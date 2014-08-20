@@ -35,6 +35,28 @@ class Repetitivas2
       puts "0"*i
     end
   end
+  
+  def primo()
+    a=15
+    contador=0
+     
+    for i in (1..a)
+      
+      if a%2==0
+        contador+=1
+      end
+      
+    end
+    
+    
+    if contador>2
+      puts "No es primo"
+    else
+      puts "Es primo"
+    end
+    
+    
+  end
     
     
     
@@ -43,4 +65,4 @@ class Repetitivas2
 end
 
 obj1=Repetitivas2.new()
-obj1.piramide2
+obj1.primo
