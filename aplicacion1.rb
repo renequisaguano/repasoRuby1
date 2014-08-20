@@ -41,6 +41,27 @@ class HolaMundo
       end
         
     end
+    
+    
+    def operadores()
+      prueba=2
+      
+      if prueba == 2 and prueba < 5 or prueba <10
+        puts "La variable es 2"
+        puts "correcto"
+      
+      else
+        puts "La variable no es 2"
+
+      end
+      
+      #if not prueba == 2
+      if !(prueba==2)
+        puts "LA VARIABLE NO ES 2"
+      end
+      
+      
+    end
   
 end
 
@@ -49,5 +70,6 @@ end
 objeto=HolaMundo.new()
 #objeto.saluda()
 #objeto.cadenas()
-objeto.condicional()
+#objeto.condicional()
+objeto.operadores
 gets()
