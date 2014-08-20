@@ -65,9 +65,54 @@ class HolaMundo
       edad=20
       unless edad <18
         print "Eres mayor de edad"
+      end     
+    end
+    
+    def menu()
+      edad=40
+      
+      #case edad
+      case edad
+          when 0..11 then print "Es un ninio"  #especificando un rango
+          when 12..17 then 
+            print "Es un adolescente"
+          when 18..29 then print "Eres un joven"
+          else print "ERROR EN LA VARIABLE"
       end
       
+    end
+    
+    
+      def menu2()
+      edad=10
       
+      #case edad
+      respuesta= case edad
+          when 0..11 then  "Es un ninio"  #especificando un rango
+          when 12..17 then 
+            "Es un adolescente"
+          when 18..29 then "Eres un joven"
+          else "ERROR EN LA VARIABLE"
+      end
+      print respuesta
+      
+    end
+    
+    def menu3 ()
+      
+      sustantivo="Google"
+      
+      respuesta = case sustantivo
+        when "Gmail","Google" then
+          "Empresa de Internet"
+        when "Facebook","Youtube" then
+          "Redes Social"
+        when 1..5,9 then
+          "Numero"
+        else "No identificado"
+      end
+      
+      print respuesta
     end
   
 end
@@ -79,5 +124,6 @@ objeto=HolaMundo.new()
 #objeto.cadenas()
 #objeto.condicional()
 #objeto.operadores
-objeto.inversoIf
+#objeto.inversoIf
+objeto.menu3
 gets()
