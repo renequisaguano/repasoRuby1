@@ -47,7 +47,7 @@ class Repetitivas
   end
   
   def pares()
-    for i in(1..20)
+    for i in(10..100).step(2)
       
       if not i%2==0
         next
