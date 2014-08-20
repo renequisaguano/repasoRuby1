@@ -30,11 +30,24 @@ class HolaMundo
       
     print cadena.center(40,"*")
     end
+    
+    def condicional
+      hora=11
+      if hora<12
+        puts "Buenos Dias"      
+        puts "Que lo pases bien"
+      else
+        puts "Buenas Tardes"
+      end
+        
+    end
   
 end
 
 
+
 objeto=HolaMundo.new()
 #objeto.saluda()
-objeto.cadenas()
+#objeto.cadenas()
+objeto.condicional()
 gets()
