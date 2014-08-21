@@ -23,10 +23,8 @@ class X
   def x
     puts "X"
     
-    self.y
     
-    def y
-      
+    def y  
       puts "Y"
       
     end
