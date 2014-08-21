@@ -1,5 +1,5 @@
 class Diccionario
-  def inicialize()
+  def initialize()
     
   end
   

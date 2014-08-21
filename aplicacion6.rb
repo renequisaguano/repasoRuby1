@@ -1,5 +1,5 @@
 class Datos
-  def inizialize()
+  def initialize()
 
   end
 

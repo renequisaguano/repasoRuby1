@@ -1,5 +1,5 @@
 class Aplicacion5
-  def inicialize()
+  def initialize()
   end
 
   def condiciones()
